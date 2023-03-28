@@ -15473,7 +15473,7 @@ function checkWinLose(guess, tiles) {
   const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])");
   console.log(remainingTiles);
   if (remainingTiles.length === 0) {
-    showAlert(targetWord.ToUpperCase(), null);
+    showAlert(targetWord.toUpperCase(), null);
     stopInteraction();
   }
 }
