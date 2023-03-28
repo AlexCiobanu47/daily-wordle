@@ -20,6 +20,7 @@ body {
   grid-auto-rows: 3em;
   gap: 0.25em;
   justify-content: center;
+  margin-bottom: 15rem;
 }
 .key {
   font-size: inherit;
