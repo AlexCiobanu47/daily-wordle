@@ -20,7 +20,6 @@ body {
   grid-auto-rows: 3em;
   gap: 0.25em;
   justify-content: center;
-  margin-bottom: 15rem;
 }
 .key {
   font-size: inherit;
@@ -70,7 +69,7 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  flex-grow: 1;
+  flex-grow: 0.7;
   grid-template-columns: repeat(5, 4em);
   grid-template-rows: repeat(6, 4em);
   gap: 0.25em;
